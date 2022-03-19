@@ -2,6 +2,7 @@ import { Button, HStack, Text } from '@chakra-ui/react'
 import useScreenSize from 'lib/use-screen-size'
 import Link from 'next/link'
 import React from 'react'
+import plr from 'lib/plr'
 
 const HeaderButton: React.FC<{ page: string }> = ({ children, page }) => {
     return (
@@ -15,11 +16,12 @@ const HeaderButton: React.FC<{ page: string }> = ({ children, page }) => {
 const Header = () => {
     const screenSize = useScreenSize()
     return (
-        <HStack width='100%' height='60px' backgroundColor='black' pl={10} pr={10}>
+        <HStack width='100%' height='60px' backgroundColor='black' pl={plr} pr={plr}>
             <Text fontSize='2xl' color='white' mr={20} _hover={{ cursor: 'pointer' }}>
                 Erik Sherman
             </Text>
-            <HeaderButton page='classes/MATH461'>MATH461 Linear Algebra</HeaderButton>
+            <HeaderButton page='classes/sympy'>Sympy</HeaderButton>
+            <HeaderButton page='classes/math461'>MATH461</HeaderButton>
             <Text color='white'>{screenSize}</Text>
         </HStack>
     )

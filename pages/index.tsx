@@ -12,6 +12,9 @@ export default function Home() {
                     <Link href='/classes/math461' passHref>
                         <Button>MATH461</Button>
                     </Link>
+                    <Link href='/classes/sympy' passHref>
+                        <Button>Sympy</Button>
+                    </Link>
                 </Flex>
             </HStack>
         </Layout>

@@ -1,14 +1,15 @@
 import { Stack } from '@chakra-ui/react'
 import Footer from 'components/footer'
 import Header from 'components/header'
+import plr from 'lib/plr'
 
 export default function Layout({ children }) {
     return (
-        <Stack alignItems='center' width='100%'>
+        <Stack width='100%'>
             <Header />
-
-            {children}
-
+            <Stack width='100%' pl={plr} pr={plr}>
+                {children}
+            </Stack>
             <Footer />
         </Stack>
     )

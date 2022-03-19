@@ -9,7 +9,7 @@ const breakpoints = createBreakpoints({
     '2xl': '96em',
 })
 
-const config = { initialColorMode: 'light', useSystemColorMode: false }
+const config = { initialColorMode: 'dark', useSystemColorMode: false }
 
 export default extendTheme({
     breakpoints,
