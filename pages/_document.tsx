@@ -6,13 +6,9 @@ export default function Document() {
             <Head>
                 <link href='https://rsms.me/inter/inter.css' rel='stylesheet' />
                 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/katex@0.15.0/dist/katex.min.css' />
-                {/* <link
-                    rel='stylesheet'
-                    href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css'
-                /> */}
                 <link
                     rel='stylesheet'
-                    href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/github.min.css'
+                    href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/night-owl.min.css'
                 />
             </Head>
             <body>
