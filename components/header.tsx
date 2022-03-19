@@ -20,8 +20,8 @@ const Header = () => {
             <Text fontSize='2xl' color='white' mr={20} _hover={{ cursor: 'pointer' }}>
                 Erik Sherman
             </Text>
-            <HeaderButton page='classes/sympy'>Sympy</HeaderButton>
-            <HeaderButton page='classes/math461'>MATH461</HeaderButton>
+            <HeaderButton page='/classes/sympy'>Sympy</HeaderButton>
+            <HeaderButton page='/classes/math461'>MATH461</HeaderButton>
             <Text color='white'>{screenSize}</Text>
         </HStack>
     )
