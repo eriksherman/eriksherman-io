@@ -57,6 +57,7 @@ export default function GoogleDrive() {
                     <Text>Enter SHARE link: </Text>
                     <Input
                         {...methods.register('inputUrl')}
+                        placeholder='https://drive.google.com/file/d/1gh5ECHxVNOT29GDq4ofGLTvTYFQbgKQu/view?usp=share_link'
                         width='1000px'
                     />
                     <Text>CDN link: </Text>
